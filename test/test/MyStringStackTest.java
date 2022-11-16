@@ -29,15 +29,15 @@ public class MyStringStackTest extends TestCase {
 	public void tearDown() throws Exception {
 	}
 
-	@Test
-	public void testPush() {
-		String o1 = null;  
-		MyStringStack stack = new MyStringStack();
-		stack.push (s1);
-		stack.push (s1);
-        stack.push (s2);
-        assertFalse (stack.isEmpty());
-	}
+	// @Test
+	// public void testPush() {
+	// 	String o1 = null;  
+	// 	MyStringStack stack = new MyStringStack();
+	// 	stack.push (s1);
+	// 	stack.push (s1);
+    //     stack.push (s2);
+    //     assertFalse (stack.isEmpty());
+	// }
 
 	@Test
 	public void testPop() {
